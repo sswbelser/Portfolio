@@ -46,3 +46,8 @@
   padding:1px;
   border:1px solid black;
 }
+
+#project1-image {
+  height: 225px;
+  border-radius: 10px;
+}
