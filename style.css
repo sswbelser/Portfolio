@@ -1,15 +1,48 @@
-body {
-	font-family: 'Slabo 27px', serif;
-	text-align: center;
+.portfolio-title {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #555;
+  text-transform: uppercase;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.portfolio-subtitle {
+  font-size: 2em;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #555;
+  text-transform: lowercase;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+ .container-fluid {
+  position: absolute;
+  z-index: 2;
+  width: 78%;
+  height: 160px;
+  top: 10px;
+  left: 50%;
+  margin-left: -39%;
+}
+.bodyparagraph {
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.5em;
+}
+.social-icons {
+  padding-top: 10px;
+  margin-bottom: 35px;
+}
+.tabContent {
+    display:none;
 }
 
-.header {
-    color: #36A0FF;
-    font-size: 27px;
-    padding: 10px;
-}
-
-.bigicon {
-    font-size: 35px;
-    color: #36A0FF;
+.profile {
+  height: 300px;
+  width: 300px;
+  border-radius: 25px;
+  padding:1px;
+  border:1px solid black;
 }

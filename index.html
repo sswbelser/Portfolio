@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap stylesheet CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+  <!-- My stylesheet -->
   <link rel="stylesheet" href="style.css">
 
-  <title>SBelser Portfolio</title>
+  <!-- Mix Panel -->
+  <script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+  for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
+  mixpanel.init("629fa2a56a138b26dac558c414bf9e17");</script> <!-- end Mixpanel -->  
 
+  <title>SBelser Portfolio</title>
+</head>
+<body>
+  <!-- Navigation Bar -->
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -18,126 +36,117 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        
+      <a class="navbar-brand" id="homeButton" href="javascript:void(0);">
+      Sabastian Belser</a>      
       </div>
-      <div class="collapse navbar-collapse" id="d">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="https://www.facebook.com/sswbelser">Facebook<span class="sr-only">(current)</span></a></li>
-          <li><a href="https://www.linkedin.com/in/sabastianbelser">LinkedIn</a></li>
-          <li><a href="https://twitter.com/sswbelser">Twitter</a></li>
-          <li><a href="http://www.github.com/sswbelser">GitHub</a></li>
-          <li><a href="http://www.rockheadandquarry.com/">Rockhead and Quarry LLC</a></li>
+          <li><a class="hd_navLink" href="javascript:void(0)" id="portfolioButton">Portfolio</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <a class="navbar-brand">Sabastian Belser</a>
+          <li><a href="mailto:sswbelser@gmail.com?Subject=Hello%20There" target="_top" class="btn btn-round btn-clear">sswbelser@gmail.com</a></li>
+          <li><a>(510) 847-6982</a></li>
         </ul>
       </div>
     </div>
   </nav>
-</head>
+  <!-- Navigation Bar ends -->
 
-<body>
+<!-- Home -->
+<section id="homeSection" class="page-home">
+  <div id="backgroundimage">
 
-<ul class="nav nav-tabs">
-  <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-  <li><a data-toggle="tab" href="#menu1">Projects</a></li>
-  <li><a data-toggle="tab" href="#menu2">Contact</a></li>
-</ul>
-
-<div class="tab-content">
-  <div id="home" class="tab-pane fade in active">
-    <h1>Profile Page</h1>
-    <p>Information about and picture of me.</p>
-  </div>
-</div>
-
-  <div id="menu1" class="tab-pane fade">
-    <h1>Projects</h1>
     <div class="container">
+      <div class="row text-center">
+        <header class="centered">
+          <h1>Sabastian Belser</h1>
+<!--           <img class="profile" src="./assets/profile.jpg"> -->
+          <p>MBA, gamer, sports fanatic, pianist, entrepreneur, junior web developer</p>
+          <img class="profile" src="./assets/profile.jpg">
+        </header>
+
+        <div class="social-icons">
+          <a href="https://github.com/sswbelser" class="btn btn-round btn-clear btn-github" id="githubIcon"><i class="fa fa-github-square fa-2x"></i></a>
+          <a href="https://www.linkedin.com/in/sswbelser" class="btn btn-round btn-clear btn-linkedin" id="linkedinIcon"><i class="fa fa-linkedin-square fa-2x"></i></a>
+          <a href="https://twitter.com/sswbelser" class="btn btn-round btn-clear btn-twitter" id="twitterIcon"><i class="fa fa-twitter-square fa-2x"></i></a>
+        </div> <!-- social icons class end -->
+        <hr>
+        <div class="container">
+          <div class="row">
+            <h3 class="background-title">Background Information</h3>
+            <p class="bodyparagraph" align="center">Fast forward to 2015. I found some inspiration from those close to me and began to learn snippets of coding language and syntax on my own. I was getting pretty far with the basics but I knew I would need more help. I searched and compared and applied to different coding schools in the area, but ultimately chose to attend General Assembly' Web Development Immersive course. This course put me on the path of success and I never strayed from it!</p>
+          </div>
+        </div>  
+      </div> <!-- row ends -->
+    </div> <!-- container ends -->
+  </div>  <!-- background image ends -->
+</section>  <!-- home ends -->
+
+<!-- Portfolio -->
+<section id="portfolioSection" class="page-portfolio" style="display: none;">
+  <header class="portfolio-section-header">
+  <div class="container">
     <div class="row">
-      <div class="col-sm-6">
-        <h3>Project 1 Name</h3>
-        <p>Filler text decribing first project</p>
-      </div>
-      <div class="col-sm-6">
-        <h3>Project 1 Picture</h3>
-        <img src="http://www.nps.gov/prsf/planyourvisit/images/ggb.jpg" alt="Project 1">
-      </div>
-    </div>
-  <div class="row">
-      <div class="col-sm-6">
-        <h3>Project 2 Picture</h3>
-        <img src="http://www.att.com/catalog/en/skus/images/apple-iphone%206%20-%2016gb-space%20gray-450x350.png?01AD=3wmowFLb3IQOT-xow-ubw4QoeV5XImYMBKZCAufb0DPUM5T_2T-nVZA&01RI=4821B5E06EEFBB9&01NA=" alt="Project 2">
-      </div>
-    <div class="col-sm-6">
-      <h3>Project 2 Name</h3>
-      <p>Filler text decribing second project</p>
+      <h2 class="portfolio-title"><span>My Web Development Portfolio</span></h2>
+      <div class="spacer"></div>
+      <p class="portfolio-subtitle">Here's what I've done</p>
     </div>
   </div>
-  <div class="row">
-    <div class="col-sm-6">
-      <h3>Project 3 Name</h3>
-      <p>Filler text decribing third project</p>
-    </div>
-    <div class="col-sm-6">
-      <h3>Project 3 Picture</h3>
-      <img src="https://craiggav.files.wordpress.com/2010/09/nes-controller.jpg" alt=Project 3>
-    </div>
-  </div>
-  </div>
-  </div>
-
-  <div id="menu2" class="tab-pane fade">
-    <div class="container">
+  <div class="container">
     <div class="row">
-        <div class="col-md-12">
-            <div class="well well-sm">
-                <form class="form-horizontal" method="post">
-                    <fieldset>
-                        <legend class="text-center header">Contact Me</legend>
-
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                            <div class="col-md-8">
-                                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                            <div class="col-md-8">
-                                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
-                            <div class="col-md-8">
-                                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
-                            <div class="col-md-8">
-                                <textarea class="form-control" id="message" name="message" placeholder="Enter your message for me here.  I will get back to you within two business days." rows="7"></textarea>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-md-12 text-center">
-                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-                            </div>
-                        </div>
-                    </fieldset>
-                </form>
-            </div>
-        </div>
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-8">
+        <h2 class="portfolioheader">
+          My first project name
+            <span class="aftertext"> | My first project description </span>
+        </h2>
+        <p class="bodyparagraph">
+          "PLACEHOLDER TEXT!"
+        </p>
+      </div>
     </div>
-</div>
   </div>
+  <hr>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h2 class="portfolioheader">
+          My second project name
+            <span class="aftertext"> | My second project description </span>
+        </h2>
+        <p class="bodyparagraph">
+          "PLACEHOLDER TEXT!"
+        </p>
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-8">
+        <h2 class="portfolioheader">
+          My third project name
+            <span class="aftertext"> | My third project description </span>
+        </h2>
+        <p class="bodyparagraph">
+          "PLACEHOLDER TEXT!"
+        </p>
+      </div>
+    </div>
+  </div>
+</header>
 
-<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="script.js"></script>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!-- My JS Sheet -->
+  <script type="text/javascript" src="scripts.js"></script>
+      
 </body>
 </html>
