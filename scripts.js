@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
 
   hidePortfolio()
   hideContact()
@@ -32,7 +32,7 @@ $(document).ready(function() {
     mixpanel.track("Linkedin Clicked")
   })  
 
-})
+});
 
 var hideHome = function(speed) {
   $("#homeSection").hide(speed)
