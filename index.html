@@ -30,17 +30,12 @@
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
       <a class="navbar-brand" id="homeButton" href="javascript:void(0);">Sabastian Belser</a>      
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li><a class="hd_navLink" href="javascript:void(0)" id="portfolioButton">Portfolio</a></li>
+          <li><a class="hd_navLink" href="javascript:void(0)" id="contactButton">Background</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="mailto:sswbelser@gmail.com?Subject=Hello%20There" target="_top" class="btn btn-round btn-clear">sswbelser@gmail.com</a></li>
@@ -67,23 +62,15 @@
           <a href="https://www.linkedin.com/in/sswbelser" class="btn btn-round btn-clear btn-linkedin" id="linkedinIcon"><i class="fa fa-linkedin-square fa-2x"></i></a>
           <a href="https://twitter.com/sswbelser" class="btn btn-round btn-clear btn-twitter" id="twitterIcon"><i class="fa fa-twitter-square fa-2x"></i></a>
         </div> <!-- social icons class end -->
-        <hr>
-        <div class="container">
-          <div class="row">
-            <h3 class="background-title">Background Information</h3>
-            <p class="bodyparagraph" align="center">I worked several years in human resources and operations management, before deciding to pursue my passion of development. I taught myself for several months and joined General Assembly's Web Development bootcamp. Throughout the program, I built several full stack JavaScript/Node.js and Ruby on Rails web apps. While I have enjoyed building all of them - and I highlighted some of the stronger ones in my portfolio - the one I am most proud of is probably my first; where during just my fifth week of the program, I built a basic <a href="https://sbelser-platformer.herokuapp.com/">platforming game</a>. I challenged myself to not only use the tools I had learned in the classroom, but I also taught myself several entirely new frameworks and libraries; such as the Quintus JavaScript game engine, jQuery Validation, and others. I think this is a strong attestment to my teachability and passion for development, despite my being a newcomer to the industry.<br><br>I have very solid work ethics, and I always push myself to give all of my effort for any endevour I take on. My work ethics were sculpted by playing the piano for over 20 years, and working my way through business school and college. Despite working over 40 hours and being a full-time student, I was able to complete my MBA program magna cum laude - with a 3.9 GPA.<br><br>While in college, I started working as a bus driver, and worked my way through various supervisory positions until I became the Director of a bus charter rental company; managing operations, administrations, and finances. I accomplished significant goals - like increasing revenue and creating a <a href="http://tipsytaxi.ucdavis.edu/">company website</a> - and I became a mentor for my 30+ direct reports; offering comprehensive classroom and on-the-job training.<br><br>Throughout my years of experience in human resources, I naturally gravitated towards the various systems and online tools, frequently becoming the owner and content expert of the HRMS, HCM, ATS, and/or CRM systems. While I was a generalist, I would spend a good chunk of time at my jobs in these various systems; learning their ins and outs, training others, and making recommendations to the executive team on alternative vendors, new functionalities, update patches, etc. Working with systems and software has always appealed to me, and I'm glad to fully realize that now as I pursue development work.<br><br>As a kid, I spent hours building websites on Yahoo GeoCities and crafting unique custom maps on engines like StarCraft's Map Editor. These maps would act as stand-alone games, with thousands of mini triggers and events, using StarCraft's in-game assets. Professionally, I am a newcomer in the world of web and game development. But I have always been a consumer of tech and games; I am excited to bring my unique perspective to the industry.</p>
-          </div>
-        </div>  
       </div> <!-- row ends -->
     </div> <!-- container ends -->
 </section>  <!-- home ends -->
 
 <!-- Portfolio -->
 <section id="portfolioSection" class="page-portfolio" style="display: none;">
-  <header class="portfolio-section-header">
   <div class="container">
     <div class="row">
-      <h2 class="portfolio-title"><span>My Web Development Portfolio</span></h2>
+      <h2 class="portfolio-title">My Web Development Portfolio</h2>
       <div class="spacer"></div>
       <p class="portfolio-subtitle">Here's what I've done</p>
     </div>
@@ -97,23 +84,7 @@
         <h2 class="portfolioheader">
           SBelser Platformer<span class="aftertext"> | <a href="https://sbelser-platformer.herokuapp.com/">Heroku</a> | <a href="https://github.com/sswbelser/WDI-Project-1">GitHub</a></span>
         </h2>
-        <p class="bodyparagraph">I created a basic Quintus-powered platformer game in four days to explore level design and various backend functionalities of a web app. This does play music and sound effects.<br><br>Technologies used: JavaScript, Quintus, jQuery, jQuery Validation, Underscore, Node.js/Express, Bootstrap, AJAX, Bcrypt, MongoDB, Mongoose, Mocha, Git, GitHub, and Heroku.</p>
-      </div>
-    </div>
-  </div>
-  <hr>
-  <!-- <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <h2 class="portfolioheader">
-          My second project name
-            <span class="aftertext"> | My second project description </span>
-        </h2>
-        <p class="bodyparagraph">
-          "PLACEHOLDER TEXT!"
-        </p>
-      </div>
-      <div class="col-md-4">
+        <p class="bodyparagraph">I created a basic Quintus-powered platformer game in four days to explore level design and various backend functionalities of a web app. This does play music and sound effects.<br><br>Technologies used: JavaScript, Quintus, jQuery, jQuery Validation, Underscore, Node.js/Express, Bootstrap, AJAX, Bcrypt, MongoDB, Mongoose, Mocha, GitHub, and Heroku.</p>
       </div>
     </div>
   </div>
@@ -121,19 +92,29 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
+        <img src="./assets/project1.png" id="project1-image">
       </div>
       <div class="col-md-8">
         <h2 class="portfolioheader">
-          My third project name
-            <span class="aftertext"> | My third project description </span>
+          atCon<span class="aftertext"> | <a href="https://atcon.herokuapp.com/">Heroku</a> | <a href="https://github.com/sswbelser/atCon">GitHub</a></span>
         </h2>
-        <p class="bodyparagraph">
-          "PLACEHOLDER TEXT!"
-        </p>
+        <p class="bodyparagraph">I was the lead dev for a group of three, and in four days we built a social network web app for conferences and conventions. It is a platform for people to post extracurricular smaller events around a conference, such as fitness groups, social gatherings, and/or dining experiences.<br><br>Technologies used: Ruby on Rails, Bootstrap, jQuery, jQuery Validation, AJAX, Paperclip, AWS SDK, RSpec, LinkedIn API, Bcrypt, PostgreSQL, GitHub, and Heroku.</p>
       </div>
     </div>
-  </div> -->
-</header>
+  </div>
+  <hr>
+  </section>
+
+  <section id="contactSection" class="page-contact" style="display: none;">
+    <div class="container">
+      <div class="row text-center">
+        <div class="row">
+          <h3 class="background-title">Background Information</h3>
+          <p class="bodyparagraph" align="center">I worked several years in human resources and operations management, before deciding to pursue my passion of development. I taught myself for several months and joined General Assembly's Web Development bootcamp. Throughout the program, I built several full stack JavaScript/Node.js and Ruby on Rails web apps. While I have enjoyed building all of them - and I highlighted some of the stronger ones in my portfolio - the one I am most proud of is probably my first; where during just my fifth week of the program, I built a basic <a href="https://sbelser-platformer.herokuapp.com/">platforming game</a>. I challenged myself to not only use the tools I had learned in the classroom, but I also taught myself several entirely new frameworks and libraries; such as the Quintus JavaScript game engine, jQuery Validation, and others. I think this is a strong attestment to my teachability and passion for development, despite my being a newcomer to the industry.<br><br>I have very solid work ethics, and I always push myself to give all of my effort for any endevour I take on. My work ethics were sculpted by playing the piano for over 20 years, and working my way through business school and college. Despite working over 40 hours and being a full-time student, I was able to complete my MBA program magna cum laude - with a 3.9 GPA.<br><br>While in college, I started working as a bus driver, and worked my way through various supervisory positions until I became the Director of a bus charter rental company; managing operations, administrations, and finances. I accomplished significant goals - like increasing revenue and creating a <a href="http://tipsytaxi.ucdavis.edu/">company website</a> - and I became a mentor for my 30+ direct reports; offering comprehensive classroom and on-the-job training.<br><br>Throughout my years of experience in human resources, I naturally gravitated towards the various systems and online tools, frequently becoming the owner and content expert of the HRMS, HCM, ATS, and/or CRM systems. While I was a generalist, I would spend a good chunk of time at my jobs in these various systems; learning their ins and outs, training others, and making recommendations to the executive team on alternative vendors, new functionalities, update patches, etc. Working with systems and software has always appealed to me, and I'm glad to fully realize that now as I pursue development work.<br><br>As a kid, I spent hours building websites on Yahoo GeoCities and crafting unique custom maps on engines like StarCraft's Map Editor. These maps would act as stand-alone games, with thousands of mini triggers and events, using StarCraft's in-game assets. Professionally, I am a newcomer in the world of web and game development. But I have always been a consumer of tech and games; I am excited to bring my unique perspective to the industry.</p>
+        </div>
+      </div> <!-- row ends -->
+    </div> <!-- container ends -->
+  </section>
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
