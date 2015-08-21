@@ -47,12 +47,7 @@
   border:1px solid black;
 }
 
-#project1-image {
-  height: 225px;
-  margin: auto;
-}
-
-#project2-image {
+.project-image {
   height: 225px;
   margin: auto;
 }
