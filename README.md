@@ -1,3 +1,7 @@
 #README
 
-An on-going work in progress for my projects completed at General Assembly's WDI program.
+A portfolio for my web development projects.
+
+#LIVE
+
+<a href="http://www.sswbelser.com/">My Portfolio</a>

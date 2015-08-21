@@ -49,5 +49,10 @@
 
 #project1-image {
   height: 225px;
-  border-radius: 10px;
+  margin: auto;
+}
+
+#project2-image {
+  height: 225px;
+  margin: auto;
 }
