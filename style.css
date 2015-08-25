@@ -1,3 +1,28 @@
+body {
+  background-image: url('assets/background.png');
+  font-family: 'questa_granderegular';
+}
+
+.bodyparagraph {
+  font-size: 1.5em;
+}
+
+hr {
+  border-color: rgba(0,0,0,0.30);
+}
+
+@font-face {
+  font-family: 'questa_granderegular';
+  src: url('./assets/font_questagrande/2-Questa_Grande_Regular-webfont.eot');
+  src: url('./assets/font_questagrande/2-Questa_Grande_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('./assets/font_questagrande/2-Questa_Grande_Regular-webfont.woff2') format('woff2'),
+       url('./assets/font_questagrande/2-Questa_Grande_Regular-webfont.woff') format('woff'),
+       url('./assets/font_questagrande/2-Questa_Grande_Regular-webfont.ttf') format('truetype'),
+       url('./assets/font_questagrande/2-Questa_Grande_Regular-webfont.svg#questa_granderegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .portfolio-title {
   font-size: 3em;
   font-weight: 700;
@@ -8,6 +33,7 @@
   padding-top: 0px;
   padding-bottom: 0px;
 }
+
 .portfolio-subtitle {
   font-size: 2em;
   font-weight: 500;
@@ -18,6 +44,7 @@
   padding-top: 0px;
   padding-bottom: 0px;
 }
+
  .container-fluid {
   position: absolute;
   z-index: 2;
@@ -27,14 +54,12 @@
   left: 50%;
   margin-left: -39%;
 }
-.bodyparagraph {
-  font-family: 'Arimo', sans-serif;
-  font-size: 1.5em;
-}
+
 .social-icons {
   padding-top: 10px;
   margin-bottom: 35px;
 }
+
 .tabContent {
     display:none;
 }
@@ -48,6 +73,8 @@
 }
 
 .project-image {
+  padding-top: 50px;
   height: 225px;
+  display: block;
   margin: auto;
 }
