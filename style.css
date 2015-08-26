@@ -45,35 +45,20 @@ hr {
   padding-bottom: 0px;
 }
 
-.container-fluid {
-  position: absolute;
-  z-index: 2;
-  width: 78%;
-  height: 160px;
-  top: 10px;
-  left: 50%;
-  margin-left: -39%;
-}
-
 .social-icons {
-  padding-top: 10px;
-  margin-bottom: 35px;
+  padding-top: 20px;
 }
 
 .skills-ionicons {
   font-size: 70px;
 }
 
-.tabContent {
-  display:none;
-}
-
 .profile {
   height: 300px;
   width: 300px;
   border-radius: 25px;
-  padding:1px;
-  border:1px solid black;
+  padding: 1px;
+  border: 1px solid black;
 }
 
 .project-image {
