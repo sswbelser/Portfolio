@@ -45,7 +45,7 @@ hr {
   padding-bottom: 0px;
 }
 
- .container-fluid {
+.container-fluid {
   position: absolute;
   z-index: 2;
   width: 78%;
@@ -60,8 +60,12 @@ hr {
   margin-bottom: 35px;
 }
 
+.skills-ionicons {
+  font-size: 70px;
+}
+
 .tabContent {
-    display:none;
+  display:none;
 }
 
 .profile {
