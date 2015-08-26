@@ -36,6 +36,10 @@ $(function() {
     mixpanel.track("Twitter Clicked")
   });
 
+  $(".icons").hover(function() {
+    $(this).toggleClass("text-primary")
+  });
+
 });
 
 var hideHome = function(speed) {
