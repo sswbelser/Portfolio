@@ -67,3 +67,16 @@ hr {
   display: block;
   margin: auto;
 }
+
+.background-div {
+  border-left-style: solid;
+  border-right-style: solid;
+
+}
+
+.background-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
