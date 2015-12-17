@@ -1,27 +1,36 @@
 $(function() {
 
   hidePortfolio();
-  hideContact();
+  hideBackground();
 
   $("#homeButton").on("click", function() {
     mixpanel.track("Home Button Clicked")
     hidePortfolio(1000)
-    hideContact(1000)
+    hideBackground(1000)
     showHome(500)
+    $("#homeLi").addClass("active")
+    $("#portfolioLi").removeClass("active")
+    $("#backgroundLi").removeClass("active")
   });
 
   $("#portfolioButton").on("click", function() {
     mixpanel.track("Portfolio Button Clicked")
-    hideContact(1000)
+    hideBackground(1000)
     hideHome(1000)
     showPortfolio(500)
+    $("#homeLi").removeClass("active")
+    $("#portfolioLi").addClass("active")
+    $("#backgroundLi").removeClass("active")
   });
 
-  $("#contactButton").on("click", function() {
-    mixpanel.track("Contact Button Clicked")
+  $("#backgroundButton").on("click", function() {
+    mixpanel.track("Background Button Clicked")
     hideHome(1000)
     hidePortfolio(1000)
-    showContact(500)
+    showBackground(500)
+    $("#homeLi").removeClass("active")
+    $("#portfolioLi").removeClass("active")
+    $("#backgroundLi").addClass("active")
   });
 
   $("#githubIcon").on("click", function() {
@@ -66,10 +75,10 @@ var showPortfolio = function(speed) {
   $("#portfolioSection").show(speed)
 };
 
-var hideContact = function(speed) {
-  $("#contactSection").hide(speed)
+var hideBackground = function(speed) {
+  $("#backgroundSection").hide(speed)
 };
 
-var showContact = function(speed) {
-  $("#contactSection").show(speed)
+var showBackground = function(speed) {
+  $("#backgroundSection").show(speed)
 };
